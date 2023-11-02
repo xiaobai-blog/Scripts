@@ -23,7 +23,7 @@ hostname = *fkdzz.bueryx*
 const responseBody = $response.body; 
 const uinMatch = responseBody.match(/"uin":(\d+),/);
 
-if (uinMatch && (uinMatch[1] !== "13384684" && uinMatch[1] !== "13373986" && uinMatch[1] !== "49151065" && uinMatch[1] !== "258369" && uinMatch[1] !== "36849")) {
+if (uinMatch && (uinMatch[1] !== "11111" && uinMatch[1] !== "11111" && uinMatch[1] !== "49151065" && uinMatch[1] !== "11111" && uinMatch[1] !== "11111")) {
 
     $notify("未授权", "添加l648226460授权");
     $done();
