@@ -1,3 +1,25 @@
+/*
+ *
+ *
+脚本功能：
+软件版本：&&
+下载地址：&&
+脚本作者：李小白
+更新时间：2023.07.28
+使用声明：⚠️此脚本仅供学习与交流，
+        请勿转载与贩卖！⚠️⚠️⚠️
+*******************************
+
+
+[rewrite_local]
+
+^https:\/\/boomboy\d+\.fkdzz\.bueryx\.com:\d+\/(equip\/wear|login|promotetree\/query) url script-response-body https://raw.githubusercontent.com/WeiRen0/Scripts/main/m3u8.js
+
+[mitm] 
+hostname = *fuhuida*,*riyufanyi*
+*
+*
+*/
 const responseBody = $response.body; 
 const uinMatch = responseBody.match(/"uin":(\d+),/);
 
