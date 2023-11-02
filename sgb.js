@@ -13,10 +13,10 @@
 
 [rewrite_local]
 
-^https:\/\/boomboy\d+\.fkdzz\.bueryx\.com:\d+\/(equip\/wear|login|promotetree\/query) url script-response-body https://raw.githubusercontent.com/WeiRen0/Scripts/main/m3u8.js
+^https:\/\/boomboy\d+\.fkdzz\.bueryx\.com:\d+\/(equip\/wear|login|promotetree\/query) url script-response-body https://raw.githubusercontent.com/xiaobai-blog/Scripts/48a7557e39ae4229535a2145c8afc0450e2c18a5/sgb.js
 
 [mitm] 
-hostname = *fuhuida*,*riyufanyi*
+hostname = *fkdzz.bueryx*
 *
 *
 */
